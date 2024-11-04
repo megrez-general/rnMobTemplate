@@ -1,25 +1,26 @@
-# Welcome to your new ignited app!
+# Welcome to your Megrez mobile template repository for React Native supported by Expo!
 
 [![CircleCI](https://circleci.com/gh/infinitered/ignite.svg?style=svg)](https://circleci.com/gh/infinitered/ignite)
 
-## The latest and greatest boilerplate for Infinite Red opinions
+## This is a boilerplate to get you started client projects which empathises on mobile application using React Native.
 
-This is the boilerplate that [Infinite Red](https://infinite.red) uses as a way to test bleeding-edge changes to our React Native stack.
+The template provides a guide on the file structure, linting rules, formating, expo functions and libraries used in a typical React Native application. If there are additional native functions such as (Bluetooth, etc), do expand on the boilerplate once you clone this template repository. If there are any specific libraries you would like to swap out, approach your tech lead ro discuss before doing so and only once the template is cloned in your repository.
 
-Currently includes:
+Libraries in this template Currently includes:
 
 - React Native
 - React Navigation
 - MobX State Tree
 - TypeScript
-- And more!
+- Redux Toolkit
+- Jest
 
 ## Quick Start
 
 The Ignite boilerplate project's structure will look similar to this:
 
 ```
-ignite-project
+project-structure
 ├── app
 │   ├── components
 │   ├── config
@@ -28,6 +29,7 @@ ignite-project
 │   ├── navigators
 │   ├── screens
 │   ├── services
+│   ├── store
 │   ├── theme
 │   ├── utils
 │   └── app.tsx
