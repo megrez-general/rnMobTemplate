@@ -1,10 +1,10 @@
-# Welcome to your Megrez mobile template repository for React Native supported by Expo!
+# Welcome to Megrez mobile template repository for React Native supported by Expo!
 
 [![CircleCI](https://circleci.com/gh/infinitered/ignite.svg?style=svg)](https://circleci.com/gh/infinitered/ignite)
 
 ## This is a boilerplate to get you started client projects which empathises on mobile application using React Native.
 
-The template provides a guide on the file structure, linting rules, formating, expo functions and libraries used in a typical React Native application. If there are additional native functions such as (Bluetooth, etc), do expand on the boilerplate once you clone this template repository. If there are any specific libraries you would like to swap out, approach your tech lead ro discuss before doing so and only once the template is cloned in your repository.
+The template provides a guide on the file structure, linting rules, formating, expo functions and libraries used in a typical React Native application. If there are additional native functions such as (Bluetooth, etc), do expand on the boilerplate once you clone this template repository. If there are any specific libraries you would like to swap out (eg zustand/mobx with redux), approach your tech lead to discuss before doing so and only once the template is cloned in your repository.
 
 Libraries in this template Currently includes:
 
@@ -15,9 +15,15 @@ Libraries in this template Currently includes:
 - Redux Toolkit
 - Jest
 
+## Resources
+
+- Ignite Documentation
+- Redux Toolkit Documentation
+- React Native Documentation
+
 ## Quick Start
 
-The Ignite boilerplate project's structure will look similar to this:
+The template structure will look similar to this:
 
 ```
 project-structure
@@ -71,7 +77,7 @@ project-structure
 
 ### ./app directory
 
-Included in an Ignite boilerplate project is the `app` directory. This is a directory you would normally have to create when using vanilla React Native.
+The main directory will be the `app`. This is a directory you would normally have to create when using vanilla React Native.
 
 The inside of the `app` directory looks similar to the following:
 

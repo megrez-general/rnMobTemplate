@@ -40,6 +40,7 @@
     "@shopify/flash-list": "1.6.4",
     "apisauce": "3.0.1",
     "date-fns": "^4.1.0",
+    "eslint-config-airbnb": "^19.0.4",
     "expo": "~51.0.8",
     "expo-application": "~5.9.1",
     "expo-build-properties": "~0.12.1",
