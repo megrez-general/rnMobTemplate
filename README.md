@@ -4,13 +4,12 @@
 
 ## This is a boilerplate to get you started client projects which empathises on mobile application using React Native.
 
-The template provides a guide on the file structure, linting rules, formating, expo functions and libraries used in a typical React Native application. If there are additional native functions such as (Bluetooth, etc), do expand on the boilerplate once you clone this template repository. If there are any specific libraries you would like to swap out (eg redux toolkit/mobx with redux), approach your tech lead to discuss before doing so and only once the template is cloned in your repository. For more best practices, refer to the readme in Megrez readme page.
+The template provides a guide on the file structure, linting rules, formating, expo functions and libraries used in a typical React Native application. If there are additional native functions such as (Bluetooth, etc), do expand on the boilerplate once you clone this template repository. If there are any specific libraries you would like to swap out (eg redux toolkit / mobx), approach your tech lead to discuss before doing so and only once the template is cloned in your repository. For more best practices, refer to the readme in Megrez readme page.
 
 Libraries in this template Currently includes:
 
 - React Native
 - React Navigation
-- MobX State Tree
 - TypeScript
 - Zustand
 - Jest
