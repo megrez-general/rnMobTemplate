@@ -9,9 +9,13 @@ module.exports = {
     "expo",
     // `jsx-runtime` must come after `expo` or it will be overridden
     "plugin:react/jsx-runtime",
+    "airbnb-base",
     "prettier",
   ],
   plugins: ["reactotron", "prettier"],
+  parserOptions: {
+    project: "./tsconfig.json",
+  },
   rules: {
     "prettier/prettier": "error",
     // typescript-eslint

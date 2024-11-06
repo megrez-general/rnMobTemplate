@@ -4,7 +4,7 @@
 
 ## This is a boilerplate to get you started client projects which empathises on mobile application using React Native.
 
-The template provides a guide on the file structure, linting rules, formating, expo functions and libraries used in a typical React Native application. If there are additional native functions such as (Bluetooth, etc), do expand on the boilerplate once you clone this template repository. If there are any specific libraries you would like to swap out (eg zustand/mobx with redux), approach your tech lead to discuss before doing so and only once the template is cloned in your repository.
+The template provides a guide on the file structure, linting rules, formating, expo functions and libraries used in a typical React Native application. If there are additional native functions such as (Bluetooth, etc), do expand on the boilerplate once you clone this template repository. If there are any specific libraries you would like to swap out (eg redux toolkit/mobx with redux), approach your tech lead to discuss before doing so and only once the template is cloned in your repository. For more best practices, refer to the readme in Megrez readme page.
 
 Libraries in this template Currently includes:
 
@@ -12,13 +12,13 @@ Libraries in this template Currently includes:
 - React Navigation
 - MobX State Tree
 - TypeScript
-- Redux Toolkit
+- Zustand
 - Jest
 
 ## Resources
 
 - Ignite Documentation
-- Redux Toolkit Documentation
+- Zustand Documentation
 - React Native Documentation
 
 ## Quick Start
@@ -35,7 +35,6 @@ project-structure
 │   ├── navigators
 │   ├── screens
 │   ├── services
-│   ├── store
 │   ├── theme
 │   ├── utils
 │   └── app.tsx
@@ -164,9 +163,3 @@ This directory will hold your Jest configs and mocks.
 ## Running Maestro end-to-end tests
 
 Follow our [Maestro Setup](https://ignitecookbook.com/docs/recipes/MaestroSetup) recipe from the [Ignite Cookbook](https://ignitecookbook.com/)!
-
-## Previous Boilerplates
-
-- [2018 aka Bowser](https://github.com/infinitered/ignite-bowser)
-- [2017 aka Andross](https://github.com/infinitered/ignite-andross)
-- [2016 aka Ignite 1.0](https://github.com/infinitered/ignite-ir-boilerplate-2016)
