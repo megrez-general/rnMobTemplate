@@ -4,7 +4,7 @@
 
 ## This is a boilerplate to get you started client projects which empathises on mobile application using React Native.
 
-The template provides a guide on the file structure, linting rules, formating, expo functions and libraries used in a typical React Native application. If there are additional native functions such as (Bluetooth, etc), do expand on the boilerplate once you clone this template repository. If there are any specific libraries you would like to swap out (eg redux toolkit / mobx), approach your tech lead to discuss before doing so and only once the template is cloned in your repository. For more best practices, refer to the readme in Megrez readme page.
+The template provides a guide on the file structure, linting rules, formating, expo functions and libraries used in a typical React Native application. If there are additional native functions such as (Bluetooth, etc), do expand on the boilerplate once you clone this template repository. If there are any specific libraries you would like to swap out (eg redux toolkit / mobx), approach your tech lead to discuss before doing so and only once the template is cloned in your repository. For styling, since Megrez have not set on a standard styling guide, the choice will be defaulted to the developer in charge of the project. For more best practices and Megrez coding style, refer to the readme in Megrez organisation github page.
 
 Libraries in this template Currently includes:
 
@@ -97,7 +97,7 @@ app
 This is where your reusable components live which help you build your screens.
 
 **i18n**
-This is where your translations will live if you are using `react-native-i18n`.
+This is where your translations will live if you are using `react-native-i18n`. If this is not required, you can remove the folder.
 
 **models**
 This is where your app's models will live. Each model has a directory which will contain the `mobx-state-tree` model file, test file, and any other supporting files like actions, types, etc.
