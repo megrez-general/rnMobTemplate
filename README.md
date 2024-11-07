@@ -34,6 +34,7 @@ project-structure
 │   ├── navigators
 │   ├── screens
 │   ├── services
+│   ├── store
 │   ├── theme
 │   ├── utils
 │   └── app.tsx
@@ -88,6 +89,7 @@ app
 ├── navigators
 ├── screens
 ├── services
+├── store
 ├── theme
 ├── utils
 └── app.tsx
@@ -110,6 +112,9 @@ This is where your screen components will live. A screen is a React component wh
 
 **services**
 Any services that interface with the outside world will live here (think REST APIs, Push Notifications, etc.).
+
+**store**
+This where Zustand custom hooks for state management will reside.
 
 **theme**
 Here lives the theme for your application, including spacing, colors, and typography.
